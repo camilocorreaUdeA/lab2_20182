@@ -1,0 +1,33 @@
+/* Practica de recuperación */
+/* Esta practica es válida como recuperación de la práctica 2 del semestre 2018_2 */
+/* Si usted decide realizar esta práctica entoces su nota final en la práctica 2
+* será la que obtenga en esta misma práctica de recuperación */
+
+Ejercicios:
+
+1. Diseñe una función que permita recorrer una estructura (struct) con un mismo puntero,
+   la estructura debe tener los siguientes miembros y en ese orden en particular:
+   un miembro tipo double
+   un miembro tipo char
+   un miembro tipo float
+   un mimbro tipo char
+   un miembro tipo double
+   un miembro tipo int.
+   La función debe recibir como parametros de entrada los valores para inicializar los miembros
+   de la estructura. Luego, con un mismo puntero y con ayuda de type casting se debe acceder a 
+   los miembros de la estructura e imprimir su valor en pantalla.
+   
+   Enlaces recomendados: http://www.cplusplus.com/doc/tutorial/typecasting/
+                         https://www.geeksforgeeks.org/type-conversion-in-c/
+                         https://www.geeksforgeeks.org/data-structure-alignment/
+                         
+2. Re-diseñe la función del ejercicio anterior pero esta vez solo puede utilizar type casting
+   y aritmetica de punteros.
+   
+3. DIseñe una función que recibe como parámetros dos dimensiones M y N. Además la función recibe
+   un parametro booleano. Con ayuda de los operadores new y delete y punteros la función debe
+   crear un arreglo multidimensional de M x N si el parametro booleano es verdadero. Si el parametro
+   es falso entonces la función debe crear una matriz triangular de M x N. Los elementos de la matriz
+   o del arreglo multidimensionalse deben rellenar con los numeros a partir del cero y en orden ascendente
+   hasta el último elemento de la matriz o del arreglo.
+   
